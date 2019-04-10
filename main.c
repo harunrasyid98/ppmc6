@@ -50,8 +50,8 @@ int main()
 			else if(pilihan1 == 2)
 			{
 				printf("Fungsi load_project \n");
-				//loadPraktikum(listPraktikum);
-				//loadAsisten(listAsisten);
+				loadPraktikum(listPraktikum);
+				loadAsisten(listAsisten);
 			}
 			printf("\n");
 			while(pilihan2 != 8)
@@ -70,7 +70,7 @@ int main()
 				if(pilihan2 == 1)
 				{
 					printf("Fungsi print_jadwal \n");
-					//tampilkanSchedule();
+					tampilkanSchedule();
 				}
 				else if(pilihan2 == 2)
 				{
@@ -79,7 +79,7 @@ int main()
 				else if(pilihan2 == 3)
 				{
 					printf("Fungsi print_asisten \n");
-					//tampilkanAsisten();
+					tampilkanAsisten();
 				}
 				else if(pilihan2 == 4)
 				{
@@ -100,8 +100,8 @@ int main()
 				else if(pilihan2 == 8)
 				{
 					printf("Fungsi save \n");
-					//savePraktikum(listPraktikum);
-					//saveAsisten(listAsisten);
+					savePraktikum(listPraktikum);
+					saveAsisten(listAsisten);
 				}
 				else
 				{
